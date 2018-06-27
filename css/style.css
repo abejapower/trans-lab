@@ -1,5 +1,6 @@
 body {
     background: #3d3e40;
+    font-family: Roboto,arial,sans-serif;
 }
 #title{
     color: #f1a63c;
@@ -15,4 +16,24 @@ body {
 }
 .reg{
     color:#f1a63c;
+}
+.main {
+background-color:#dddee0;
+
+}
+.navbar-header{
+    background-color: #3d3e40;   
+}
+#btn-perfil,#btn-tarifa,#btn-saldo,#btn-preguntas{
+    margin: 0.5%;
+    padding-left: 10%;
+}
+#btn-saldo{
+padding-right: 11%;
+}
+#btn-perfil{
+    padding-right:13.5%;
+}
+#btn-tarifa{
+    padding-right: 7%;
 }

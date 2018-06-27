@@ -24,24 +24,25 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                        <input class="form-control correo" type="text" placeholder="correo electronico">
-                </div>
+        <form>
+            <div class="input-group mb-3" col-8>
+              <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+              </div>
+              <input type="text" class="form-control" id="correo" placeholder="Correo Electronico">
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                        <input class="form-control contraseña" type="text" placeholder="contraseña">
+            <div class="input-group mb-3" col-8>
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><ion-icon name="key"></ion-icon></span>
                 </div>
-            </div>
-        </div>
+                <input type="password" class="form-control" id="contra"  placeholder="Contraseña" name="psw">
+              </div>        
+        </form>
+
         <div class="container">
             <div class="row">
                 <div class="col-8">
-                        <button type="button" class="btn btn-warning" class="iniciar">INICIAR SESION</button>
+                        <button type="button" class="btn btn-warning" id="iniciar">INICIAR SESION</button>
                 </div>
 
             </div>
@@ -71,9 +72,51 @@
             </div>
         </div> 
     </section>
-
-    <section class="hamburguesa"> </section>          
-    <section class= "main"> </section>
+    <section class="hambuerguesa">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header" >
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" col-12>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="#">TRANS-LAB</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">ver saldo</a></li>
+                  <li><a href="#">calcular tarifa</a></li> 
+                  <li><a href="#">perfil</a></li> 
+                  <li><a href="#">preguntasFrecuentes</a></li>
+                  <li class="active"><a href="#">Home</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          </section>
+        <section class="main"> 
+        <div class="container">
+            <div class="row">
+                <button type="button" class="btn btn-warning" id="btn-saldo">  VER SALDO </button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <button type="button" class="btn btn-warning" id="btn-tarifa">CALCULA TARIFA</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <button type="button" class="btn btn-warning" id="btn-perfil"> PERFIL </button>
+            </div>
+        </div>
+        <div class="container" >
+            <div class="row">
+                <button type="button" class="btn btn-warning" id="btn-preguntas">PREGUNTAS PRECUENTE</button>
+            </div>
+        </div>
+    </section>       
     <section class="verSaldo"> </section>
     <section class="calcularTarifa"> </section>
     <section class="verPerfil"> </section>
@@ -83,5 +126,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/ionicons@4.2.1/dist/ionicons.js"></script>
 </body>
 </html>
