@@ -1,1 +1,18 @@
-/* YeyeYeee código aquí */
+body {
+    background: #3d3e40;
+}
+#title{
+    color: #f1a63c;
+    font-family: Roboto,arial,sans-serif;
+    align-content: center;
+}
+.olv{
+    color: white;
+}
+
+.ntCuenta{
+    color:white;
+}
+.reg{
+    color:#f1a63c;
+}
