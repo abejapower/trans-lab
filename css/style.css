@@ -2,38 +2,64 @@ body {
     background: #3d3e40;
     font-family: Roboto,arial,sans-serif;
 }
-#title{
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.title{
     color: #f1a63c;
     font-family: Roboto,arial,sans-serif;
+    margin-left: 42%;
     align-content: center;
 }
 .olv{
-    color: white;
+    color: whitesmoke;
+    display: inline;
 }
-
-.ntCuenta{
-    color:white;
+.cta{
+    color: whitesmoke;
+    font-size: 1.4em;
+    align-content: left;
 }
 .reg{
-    color:#f1a63c;
+    color: #f1a63c;
+    font-family: Roboto,arial,sans-serif;
 }
-.main {
+.home {
 background-color:#dddee0;
-
-}
-.navbar-header{
-    background-color: #3d3e40;   
-}
-#btn-perfil,#btn-tarifa,#btn-saldo,#btn-preguntas{
-    margin: 0.5%;
-    padding-left: 10%;
+color: whitesmoke;
 }
 #btn-saldo{
-padding-right: 11%;
-}
-#btn-perfil{
-    padding-right:13.5%;
+    margin-top: 30%;
+    margin-bottom: 5%;
+    color: whitesmoke;
+    box-shadow: #3d3e40;
 }
 #btn-tarifa{
-    padding-right: 7%;
+    margin-bottom: 5%;
+    color: whitesmoke;
 }
+#btn-perfil{
+    margin-bottom: 5%;
+    color: whitesmoke;
+}
+#btn-qa{
+    margin-bottom: 30%;
+    color:whitesmoke;
+}
+#person{
+    width: 50%;
+    margin-left: 30%;
+}
+.mp{
+    align-content: center;
+    color: whitesmoke;
+}    
+.tarifas_pic{
+    background-color: #f1a63c;
+}
+
+.tarifas_bt{
+    background-color: #dddee0;
+}   

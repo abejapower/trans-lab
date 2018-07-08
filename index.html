@@ -10,117 +10,296 @@
 </head>
 <body>
     <section class="first">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-6">
-                   <img class="logo" src="docs/imagen.png" alt="logo">
+                <div class="col-4"></div>
+                    <div class="row">
+                            <div class="d-flex justify-content-center">
+                                    <div class="p-2"> <img class="logo" src="docs/imagen.png" alt="logo"></div>
+                            </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container" id="title">
-            <div class="row">
-                <div class="col-6">
+        <div class="row">
+            <div class="container">
+                <div class="title"  >
                     <strong>TRANS-LAB</strong>
-                </div>
+                </div>                             
             </div>
+        </div>               
+        <div class="col"></div>
         </div>
-        <form>
-            <div class="input-group mb-3" col-8>
-              <div class="input-group-prepend">
-                <span class="input-group-text">@</span>
-              </div>
-              <input type="text" class="form-control" id="correo" placeholder="Correo Electronico">
-            </div>
-            <div class="input-group mb-3" col-8>
-                <div class="input-group-prepend">
-                  <span class="input-group-text"><ion-icon name="key"></ion-icon></span>
-                </div>
-                <input type="password" class="form-control" id="contra"  placeholder="Contraseña" name="psw">
-              </div>        
-        </form>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-8">
-                        <button type="button" class="btn btn-warning" id="iniciar">INICIAR SESION</button>
-                </div>
-
-            </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-10">
-                   <p class="olv">¿Olvidaste tu contraseña?</p>
+                <div class="row">
+                  <div class="col">
+                
+                  </div>
+                  <div class="col-6">
+                        <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="basic-addon1">@</span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                              </div>
+                              <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text" id="basic-addon1"><ion-icon name="key"></ion-icon></span>
+                                    </div>
+                                    <input type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                                  </div>
+                    </div>
+                   <div class="col"> 
+                  </div>
                 </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-8">
-                    <p class="ntCuenta">
-                    ¿NO TIENES CUENTA?
-                    </p>
-                </div>
-            </div>
-        </div>     
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                   <p class="reg">REGISTRATE
-                   </p> 
-                </div>
-            </div>
-        </div> 
+                <div class="container" id="btn-start">
+                        <div class="row">
+                          <div class="col">                        
+                          </div>
+                          <div class="col-6">
+                                <button type="button" class="btn btn-warning btn-lg btn-block">Inicia Sesion</button>
+                          </div>
+                          <div class="col">                      
+                          </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                  </div>
+                                  <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="olv">¿Olvidaste tu contraseña?</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                 <div class="col">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                        </div>
+                        <div class="container">
+                                <div class="row">
+                                  <div class="col">
+                                  </div>
+                                  <div class="col-6">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="cta">
+                                                    ¿No tienes cuenta?
+                                                </p>
+                                                <div class="reg">
+                                                <button type="button" class="btn btn-link">REGISTRATE</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col"></div>
+                                    </div> 
+                                  </div>          
+                            
+                                <div class="container">
+                                                <div class="row">
+                                                  <div class="col">
+                                                  </div>
+                                                  <div class="col-6">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col">
+                                                 </div>
+                                                </div>                                                
     </section>
-    <section class="hambuerguesa">
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header" >
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" col-12>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span> 
-                </button>
-                <a class="navbar-brand" href="#">TRANS-LAB</a>
+    <section class="home">
+            <div class="container">
+                    <div class="row">
+                      <div class="col"></div>
+                      <div class="col-6">
+                            <nav class="navbar navbar-dark bg-dark" >
+                                    <strong>TRANS-LAB</strong>
+                                  </nav>
+                      </div>
+                      <div class="col">                       
+                    </div>
+            </div>
+            <div class="container">
+                    <div class="row">
+                      <div class="col"></div>
+                        <div class="col-6">
+                           <button type="button" id="btn-saldo" class="btn btn-warning btn-lg btn-block">Ver Saldo</button> 
+                        </div>  
+                      <div class="col">
+                    </div>
+                  </div>          
+                    <div class="container">
+                      <div class="row">
+                        <div class="col"></div>
+                          <div class="col-6">
+                             <button type="button" id="btn-tarifa" class="btn btn-warning btn-lg btn-block">Calcular Tarifas</button> 
+                          </div>  
+                        <div class="col">
+                      </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                                <div class="col">
+                                </div>
+                                    <div class="col-6">
+                                            <button type="button" id="btn-perfil" class="btn btn-warning btn-lg btn-block">Perfil</button> 
+                                    </div>
+                                <div class="col">
+                                </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                            <div class="row">
+                                    <div class="col">
+                                    </div>
+                                        <div class="col-6">
+                                                <button type="button" id="btn-qa" class="btn btn-warning btn-lg btn-block">Preguntas Frecuentes</button> 
+                                        </div>
+                                    <div class="col">
+                                    </div>
+                            </div>
+                        </div>                   
+    </section>
+    <section class="perfil">
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                <h5 class="text-white h4"></h5>
+                <span class="text-muted"></span>
               </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                  <li><a href="#">ver saldo</a></li>
-                  <li><a href="#">calcular tarifa</a></li> 
-                  <li><a href="#">perfil</a></li> 
-                  <li><a href="#">preguntasFrecuentes</a></li>
-                  <li class="active"><a href="#">Home</a></li>
-                </ul>
-              </div>
             </div>
-          </nav>
-          </section>
-        <section class="main"> 
-        <div class="container">
-            <div class="row">
-                <button type="button" class="btn btn-warning" id="btn-saldo">  VER SALDO </button>
+            <nav class="navbar navbar-dark bg-dark">
+              <button class="navbar-toggler" id="mp" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+              </button>
+              <p class="mp">TRANS-LAB</p>
+            </nav>
+          </div>
+          <section class="tarifas_pic">
+              <div class="container">
+                  <div class="row">
+                    <div class="col"></div>
+                    <div class="col-6">
+                          <img id="person" src="docs/person.png" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="col"></div>
+                  </div>
+          </section>        
+  <br>
+  <section class="tarifas_btn">
+      <div class="container">
+          <div class="row">
+            <div class="col">
+              
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <button type="button" class="btn btn-warning" id="btn-tarifa">CALCULA TARIFA</button>
+            <div class="col-6">
+                  <form>
+                          <div class="form-group row">
+                            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                              <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                            </div>
+                          </div>
+                  </form>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <button type="button" class="btn btn-warning" id="btn-perfil"> PERFIL </button>
-            </div>
-        </div>
-        <div class="container" >
-            <div class="row">
-                <button type="button" class="btn btn-warning" id="btn-preguntas">PREGUNTAS PRECUENTE</button>
-            </div>
-        </div>
-    </section>       
-    <section class="verSaldo"> </section>
-    <section class="calcularTarifa"> </section>
-    <section class="verPerfil"> </section>
-    <section class="preguntasFrecuentes"> </section>
+            <div class="col">
+             </div>
+</div>
+
+  </section>                          
+                    
+                                    <div class="container">
+                                            <div class="row">
+                                              <div class="col">                                        
+                                              </div>
+                                              <div class="col-6">
+                                                <button type="button" class="btn btn-warning">AGREGAR TARJET</button>
+                                              </div>
+                                              <div class="col">
+                                              </div>
+                                            </div>
+                       
+    </section>
+    <section class="saldos">
+            <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        1 of 3
+                      </div>
+                      <div class="col-6">
+                        <input type="number">
+                      </div>
+                      <div>
+                       <input type="number">   
+                      </div>
+                      <div>
+                        <input type="number">
+                      </div>
+                      <div>
+                        <input type="number">
+                      </div>
+                      <div class="col">
+                        3 of 3
+                      </div>
+                    </div>
+    </section>
+    <section class="tarifas">
+            <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        1 of 3
+                      </div>
+                      <div class="col-6">
+                        2 of 3 (wider)
+                      </div>
+                      <div class="col">
+                        3 of 3
+                      </div>
+                    </div>
+    </section>
+    <section class="perfil">
+            <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        1 of 3
+                      </div>
+                      <div class="col-4">
+                        
+                      </div>
+                      <div class="col">
+                        3 of 3
+                      </div>
+                    </div>
+
+    </section>
+    <section class="qa">
+            <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        1 of 3
+                      </div>
+                      <div class="col-6">
+                        2 of 3 (wider)
+                      </div>
+                      <div class="col">
+                        3 of 3
+                      </div>
+                    </div>
+    </section>
+    
+
+</body>
 
     <script src="../trans-lab/js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
